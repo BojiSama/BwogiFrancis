@@ -6,10 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SYS Medical Emergency App</title>
   <link rel="stylesheet" href="{% static 'website/style.css' %}">
+  <style>
+    {% comment %} .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    } {% endcomment %}
+
+    .container img {
+      align-items: center
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto; /* Center the image horizontally */
+    }
+  </style>
 </head>
 <body>
   <div class="container">
+    <img src="{% static 'images/emergency.jpg' %}">
+
     <header>
+      
       <h1>SYS Medical Emergency App</h1>
       <p>A mobile app that helps increase access to healthcare in Uganda by offering a platform where one can call for assistance from emergency contacts, access first-aid instructions, and get to contact the nearest healthcare centers for further assistance.</p>
     </header>
@@ -22,6 +40,7 @@
         <li>Information about the nearest healthcare centers based off live-location</li>
 
       </ul>
+
       <h2>How to use</h2>
       <ol>
         <li>Download the app and register for an account.</li>

@@ -1,0 +1,63 @@
+h1{
+  padding: 30px;
+  background-color:rgb(245, 38, 24);
+  text-align: center;
+  color: white;
+}
+body {
+  background: radial-gradient(circle, red, white);
+}
+
+.panic {
+  padding: 30px;
+  background-color: aqua;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.aid {
+  padding: 30px;
+  font-size: large;
+  background-color: aqua;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2{
+  font-size: larger;
+  font-weight: bold;
+}
+
+p{
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+  text-align: center;
+}
+
+.health{
+  padding: 30px,;
+  background-color: rgb(255, 123, 0);
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container{
+  background-color:white ;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+
+img{
+  width: 200px;
+  height: 400px;
+}
